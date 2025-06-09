@@ -1,3 +1,0 @@
-paho-mqtt
-sqlite3
-tkinter
