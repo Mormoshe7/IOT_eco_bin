@@ -12,4 +12,4 @@ This project simulates an IoT-based smart waste management system. It includes:
 2. Install requirements using: pip install -r requirements.txt
 3. Run the script: python ecobin.py
 
-Developed as a course project by Shay Shalev, Shira Mor, and Yonatan Reznikov.
+Developed as a course project by Shay Shalev, Mor Moshe and Yonatan Reznikov.
