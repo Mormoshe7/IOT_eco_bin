@@ -133,7 +133,7 @@ def start_gui():
     root.title("Smart Waste Monitoring System")
     root.geometry("600x400")
 
-    tree = ttk.Treeview(root, columns=("bin_id", "location", "fill_level", "temperature", "humidity", "relay_status", "status"), show='headings')
+    tree = ttk.Treeview(root, columns=("bin_id", "location", "timestamp", "fill_level", "temperature", "humidity", "relay_status", "status"), show='headings')
     for col in tree["columns"]:
         tree.heading(col, text=col.replace("_", " ").title())
     tree.pack(fill=tk.BOTH, expand=True)
